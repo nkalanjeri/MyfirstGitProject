@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: IBMFirstDeploy
+  host: IBMFirstDeploy
+  disk_quota: 1024M
+  services:
+  - IBMFirstDeploy-cloudantNoSQLDB
